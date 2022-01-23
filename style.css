@@ -3,3 +3,11 @@
 .body{
     font-family: 'Poppins', sans-serif;
 }
+.slider-button{
+    text-decoration: none;
+    background-color: white;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+}

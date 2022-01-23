@@ -12,11 +12,14 @@
 </head>
 <body>
     <!-- ------------------header start--------------->
-    <header>
+    <header class="header-setion">
         <!--------------------------- navbar ------------------->
         <nav class="navbar navbar-expand-lg navbar-light my-3">
             <div class="container">
               <h3 class="text-primary fw-bold">SRISTY Community Center</h3>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
                 <form class="d-flex">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
@@ -37,6 +40,50 @@
               </div>
             </div>
           </nav>
+          <!-------------------------carousel start -------------------------->
+          <section>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="5000">
+                    <img style="height: 550px;" src="./images/banner-1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption text-white fw-bold">
+                      <h1>The Exceptional place for<br> any event</h1>
+                      <p>We are ready to arrange any kind of your Event.<br> So, come here and enjoy your beautiful moments.</p>
+                      <a target="_blank" class="slider-button" href="https://www.facebook.com/biplob.barmon.3">Book Now</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <img style="height: 550px;" src="./images/banner-22.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption text-white fw-bold">
+                      <h1>Honesty is our policy</h1>
+                      <p>We always believe to the honesty and provide a realiable service.<br>We also provide a very peaceful environment for any event.</p>
+                      <a target="_blank" class="slider-button" href="https://www.facebook.com/biplob.barmon.3">Book Now</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img style="height: 550px;" src="./images/banner-33.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption fw-bold">
+                      <h1>Our chef is Master class</h1>
+                      <p>We have a master class chef and they are ready to provide<br> you any kinds food in every time. They are also friendly.</p>
+                      <a target="_blank" class="slider-button" href="https://www.facebook.com/biplob.barmon.3">Book Now</a>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </section>
     </header>
     <main>
 
