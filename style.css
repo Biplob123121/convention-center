@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 .body{
     font-family: 'Poppins', sans-serif;
+    background: #E5E5E5;
 }
 .slider-button{
     text-decoration: none;
@@ -10,4 +11,32 @@
     font-size: 20px;
     font-weight: 700;
     border-radius: 10px;
+}
+.list-style{
+    list-style: none;
+    padding: 0px;
+    color: #848199;
+}
+.package-btn{
+    width: 207px;
+    height: 45px;
+    border: none;
+    background: #faedf5;
+    border-radius: 24px;
+}
+.special-package{
+    background: gray;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0px 42px 34px rgba(0, 0, 0, 0.25);
+    transform: scaleY(1.1);
+}
+.special-package ul{
+    list-style: none;
+    padding: 0px;
+}
+.special-tip{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
