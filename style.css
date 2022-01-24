@@ -12,6 +12,9 @@
     font-weight: 700;
     border-radius: 10px;
 }
+/**************************************************
+     for the package section
+**************************************************/
 .list-style{
     list-style: none;
     padding: 0px;
@@ -40,6 +43,7 @@
     top: 0;
     right: 0;
 }
-.brderrrrr{
+/****************toast section*******************/
+.side-border{
     border-left: 8px solid #3F87F5;
 }
